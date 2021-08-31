@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{
+            background-image: url("../images/contact-cover.jpg");
+            background-size: cover;
+        }
+        *{
+            margin: 0;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nav-bar{
+            padding-top: 20px;
+            height: 40px;
+            width: 100%;
+            background-color: #14294C;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            border-bottom: 1px solid white;
+        }
+        span{
+            padding: 20px;
+        }
+        h1{
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        #form-id{
+            background-color: rgba(0,0,0,0.3);
+            margin: 0 auto;
+            width: 400px;
+            height: 300px;
+            padding-top: 100px;
+            border-radius: 10px;
+        }
+        .input-item{
+            background-color: transparent;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            outline: none;
+            font-size: 16px;
+            padding: 10px;
+            margin: 10px;
+            width: 80%;
+            border: 0;
+            border-bottom: 1px solid rgb(112, 111, 111);
+            border-radius: 10px;
+            color: #fff;
+        }
+        .boton{
+            width: 80px;
+            height: 40px;
+            background-color: #0056ff;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 16px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bar">
+        <span><a href="./index.html">Viajes</a></span>
+        <span><a href="./about.html">Acerca de</a></span>
+        <span><a href="./contact.html">Contacto</a></span>
+    </nav>
+
+    <h1>Contactate Conmigo</h1><br>
+
+    <form id="form-id">
+        <div><input class="input-item" type="text" name="NombreCompleto" placeholder="Nombre Completo"></div>
+    
+        <div><input class="input-item" type="text" name="Email" placeholder="Email"></div>
+    
+        <div><input class="input-item" type="tel" name="Telefono" placeholder="Numero de telefono"></div>
+
+        <div id="boton-id">
+            <input class="boton" type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>

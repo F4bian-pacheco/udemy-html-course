@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #F2F6FC;
+        }
+        table{
+            background-color: #fff;
+            margin: 0 auto;
+            width: 600px;
+            border: 1px solid #aaa;
+            border-collapse: collapse;
+            line-height: 1;
+        }
+        td{
+            border: 1px solid #aaa;
+            border-collapse: collapse;
+        }
+        .titulo{
+            background-color: #ABD4E5;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="titulo">
+            <td colspan="4"><h4>Invoice #12345ABCD</h4></td>
+            <td colspan="2"><h4>17 Ago 2021</h4></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <p><b>Pay To:</b><br>
+                    The Tech Park <br>
+                    123 Willow Street <br>
+                    Boulevard, LA -567892 <br>
+                </p>
+            </td>
+            <td colspan="3">
+                <p><b>Customer:</b><br>
+                    John Lark <br>
+                    Dummy Apartments <br>
+                    276 Main Street <br>
+                    Boulevard, LA -567892 <br>
+                </p>
+            </td>
+        </tr>
+        <tr class="titulo">
+            <td colspan="2">
+                <h4>Name/Description</h4>
+            </td>
+            <td>
+                <h4><b>Qty.</b></h4>
+            </td>
+            <td>
+                <h4><b>MRP</b></h4>
+            </td>
+            <td colspan="2"><h4><b>Ammount</b></h4></td>
+        </tr>
+        <tr>
+            <td colspan="2">Biryani</td>
+            <td>3</td>
+            <td>400</td>
+            <td colspan="2"><p>1200</p></td>
+        </tr>
+        <tr>
+            <td colspan="2">Chocolate</td>
+            <td>5</td>
+            <td>500</td>
+            <td colspan="2"><p>600</p></td>
+        </tr>
+        <tr>
+            <td class="titulo" colspan="4">
+                <h4>Subtotal:</h4>
+            </td>
+            <td colspan="2">1800</td>
+        </tr>
+        <tr>
+            <td class="titulo" colspan="3"><h4>Tax</h4></td>
+            <td>10%</td>
+            <td colspan="2">180</td>
+        </tr>
+        <tr>
+            <td class="titulo" colspan="4">
+                <h4>Grand Total:</h4>
+            </td>
+            <td colspan="2">Rs 1620</td>
+        </tr>
+    </table>
+</body>
+</html>

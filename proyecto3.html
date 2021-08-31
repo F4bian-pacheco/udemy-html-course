@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #f0f5ff;
+            margin: 0;
+            padding: 16px;
+        }
+        h1{
+            padding-top: 20px;
+            text-align: center;
+        }
+        form{
+            text-align: center;
+            background-color: white;
+            width: 700px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        .icon{
+            width: 60px;
+            padding: 16px 32px 16px 32px;
+        }
+        .icons-nav{
+            background-color: #ebf0ff;
+            padding: 24px;
+            /* border: 1px solid black; */
+            /* border-radius: 10px; */
+        }
+        .input-item{
+            outline: none;
+            font-size: 16px;
+            padding: 10px;
+            margin: 10px;
+            width: 500px;
+            border: 0;
+            border-bottom: 1px solid rgb(112, 111, 111);
+        }
+        .boton{
+            width: 80px;
+            height: 40px;
+            background-color: #0056ff;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 16px;
+        }
+        .boton-div{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Register</h1>
+        <div class="icons-nav">
+            <img class="icon" src="images/google.png">
+            <img class="icon" src="images/facebook.png">
+            <img class="icon" src="images/github.png">
+            <img class="icon" src="images/linkedin.png">
+        </div>
+
+        <div>
+            <input class="input-item" type="text" placeholder="username">
+        </div>
+        <div>
+            <input class="input-item" type="text" placeholder="email">
+        </div>
+        <div>
+            <input class="input-item" type="password" placeholder="password">
+        </div>
+        <div>
+            <input class="input-item" type="password" placeholder="confirm password">
+        </div>
+        <div class="boton-div">
+            <input class="boton" type="submit" value="Register">
+        </div>
+    </form>
+</body>
+</html>

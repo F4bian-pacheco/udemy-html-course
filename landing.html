@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            scroll-behavior: smooth;
+        }
+        .menu-item{
+            display: inline;
+            padding: 10px;
+            background-color:aquamarine;
+            color:aliceblue;
+        }
+        .seccion{
+            width: 100%;
+            height: 550px;
+        }
+        #first-section{
+            background-color: brown;
+        }
+        #second-section{
+            background-color: blueviolet;
+        }
+        #third-section{
+            background-color: cadetblue;
+        }
+    </style>
+
+</head>
+<body>
+    <ul style="list-style: none;">
+        <li class="menu-item"><a href="landing.html#first-section">Home</a></li>
+        <li class="menu-item"><a href="landing.html#second-section">About</a></li>
+        <li class="menu-item"><a href="landing.html#third-section">Contact</a></li>
+    </ul>
+
+    <div id="first-section" class="seccion">
+        <h1 class="seccion-h1">Landing Section</h1>
+    </div>
+    <div id="second-section" class="seccion">
+        <h1 class="seccion-h1">About Section</h1>
+    </div>
+    <div id="third-section" class="seccion">
+        <h1 class="seccion-h1">Contact Section</h1>
+    </div>
+</body>
+</html>
