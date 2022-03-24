@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        table{
+            text-align: center;
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: 0 auto;
+            width: 900px;
+            height: 500px;
+        }
+        tr td{
+            padding: 5px;
+            border: 1px solid black;
+        }
+        td{
+            width: 100px;
+        }
+        #header{
+            color: #3F6688;
+            background-color: #FFCC99;
+        }
+        #IM{
+            color: #fff;
+            background-color: #6AA84F;
+        }
+        #QG{
+            color: #fff;
+            background-color: #4472C4;
+        }
+        #IB{
+            color: #fff;
+            background-color: #A64D79;
+        }
+        #Al{
+            color:#fff;
+            background-color: #FF9900;
+        }
+        #COE{
+            color: #fff;
+            background-color: #CC4125;
+        }
+        #SA{
+            color: #fff;
+            background-color: #BF9000;
+        }
+        #TU{
+            color: #000;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <Caption><b>Mi Horario</b></Caption>
+        <th id="header" colspan="6">Ingenieria Civil BioInformatica 1er Semestre</th>
+        <tr style="font-weight: bolder;">
+            <td style="color:#ED7D31">DIA/HR</td>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miercoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+        </tr>
+        <tr>
+            <td>1 8:30-9:30</td>
+            <td id="IM" rowspan="2">Intro. Matematicas <br>Sec. B(Cat) <br>514</td>
+            <td id="Al" rowspan="2">Algebra <br> Sec. B(Cat) <br>514</td>
+            <td id="Al">Algebra <br> Sec. B(Cat) <br>514</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2 9:40-10:40</td>
+            <td id="Al">Algebra <br> Sec. B(Lab) <br>514</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3 10:50-11:50</td>
+            <td id="QG" rowspan="2">Quimica General <br>Sec. A(Cat) <br>504</td>
+            <td id="SA" rowspan="2">Soluciones Algoritmicas <br>Sec. A(Cat) <br>506</td>
+            <td id="TU">Tutoria</td>
+            <td></td>
+            <td id="IM">Intro. Matematicas <br>Sec. B(Cat) <br>502</td>
+        </tr>
+        <tr>
+            <td>4 12:00-13:00</td>
+            <td></td>
+            <td></td>
+            <td id="IM">Intro. Matematicas <br>Sec. B(Taller) <br>502</td>
+        </tr>
+        <tr>
+            <td>5 13:00-14:15</td>
+            <td style="background-color: yellow;" colspan="3">Almuerzo</td>
+            <td id="SA" rowspan="3">Soluciones Algoritmicas <br>Sec. A(Lab) <br>507</td>
+            <td style="background-color: yellow;">Almuerzo</td>
+        </tr>
+        <tr>
+            <td>6 14:20-15:20</td>
+            <td id="IB" rowspan="2">Intro. a la Ingenieria en BioInformatica <br> Sec. A(Cat) <br>504</td>
+            <td id="COE" rowspan="2">Comunicacion oral y escrita I <br>Sec. B(Cat) <br>505</td>
+            <td id="QG">Quimica General <br>Sec. A(Ayu) <br>504</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>7 15:30-16:30</td>
+            <td id="QG" rowspan="2">Quimica General <br>Sec. A(Lab) <br>Lab 2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>8 16:40-17:40</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>9 17:50-18:50</td>
+            <td id="IB">Intro. a la Ingenieria en BioInformatica <br> Sec. A(Ayu) <br>504</td>
+            <td></td>
+            <td></td>
+            <td id="Al" rowspan="2">Algebra <br>Sec. B(Ayu) <br>514</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>10 19:00-20:00</td>
+            <td></td>
+            <td></td>
+            <td id="IM">Intro. Matematicas <br>Sec. B (Ayu) <br>502 <td>
+        </tr>
+    </table>
+</body>
+</html>
